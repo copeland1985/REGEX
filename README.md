@@ -13,7 +13,7 @@ Validates a date to be in either YYYY-MM-DD, YYYY MM DD or YYYY\MM\DD format. Mu
 ^\d{4}[\-\/\s]?((((0[13578])|(1[02]))[\-\/\s]?(([0-2][0-9])|(3[01])))|(((0[469])|(11))[\-\/\s]?(([0-2][0-9])|(30)))|(02[\-\/\s]?[0-2][0-9]))$
 
 # 3. VALID CANADIAN POSTAL CODE
-Validates for 6 digit Canadian postal code in L1L1L1 or L1L 1L1 format, not case sensitive, only allows valid first character from list.
+Validates for 6 character Canadian postal code in L1L1L1 or L1L 1L1 format, not case sensitive, only allows valid first character from list.
 
 ^[ABCEGHJKLMNPRSTVXYabceghjklmnprstvxy]{1}\d{1}[A-Za-z]{1} *\d{1}[A-Za-z]{1}\d{1}$
 
